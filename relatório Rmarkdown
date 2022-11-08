@@ -29,3 +29,4 @@ grafico1 <- ggplot() +
   geom_text(mapping = aes_string(x = cls$centers[ , "Murder"], y = cls$centers[ , "Assault"], label = 1:3), color = "white", size = 2) +
   theme_light()
 ggplotly(grafico1)
+```
